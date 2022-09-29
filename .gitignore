@@ -1,0 +1,8 @@
+# Ignore Node Modules Folder
+node_modules/
+
+# Don't include .env file
+.env
+
+# Don't push log files
+*.log

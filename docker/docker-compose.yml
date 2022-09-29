@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  smtp-sengrid-relay:
+    build: 
+      context: ../
+      dockerfile: docker/Dockerfile
+    container_name: smtp-sengrid-relay
+    restart: unless-stopped
+    ports:
+      - "25:25"

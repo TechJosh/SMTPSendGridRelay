@@ -1,0 +1,19 @@
+{
+  "name": "smtp-sendgrid-relay",
+  "version": "1.0.0",
+  "description": "Forward SMTP emails to SendGrid's API.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "set NODE_ENV=development&&node server.js"
+  },
+  "author": "techjosh",
+  "license": "MIT",
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.0.1",
+    "mailparser": "^3.5.0",
+    "smtp-server": "^3.11.0",
+    "winston": "^3.8.1"
+  }
+}
